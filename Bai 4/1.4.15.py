@@ -1,0 +1,5 @@
+s = input("Nhập các từ tiếng Anh (cách nhau bởi khoảng trắng): ")
+tu = s.split()
+tu.sort()
+print("Các từ theo thứ tự từ điển là:")
+print(' '.join(tu))
